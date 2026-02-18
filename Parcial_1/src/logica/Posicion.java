@@ -1,0 +1,19 @@
+package logica;
+
+public class Posicion {
+    private int fila;
+    private int col;
+
+    public Posicion(int fila, int col) {
+        this.fila = fila;
+        this.col = col;
+    }
+
+    public int getFila() { return fila; }
+    public int getCol() { return col; }
+
+    @Override
+    public String toString() {
+        return "(" + fila + "," + col + ")";
+    }
+}
